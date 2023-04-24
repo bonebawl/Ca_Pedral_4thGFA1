@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The <span>GreenEarth</span> Heritage Foundation</h1>
+        <p id="header">Transforming Land. Transforming Lives.</p>
+    </header>
+    <hr>
+    <div id="container">
+        <div id="paragraphs">
+            <h2>The Vision and Mission of This Foundation</h2>
+            <p id="paragraph">"Our MISSION is to preserve the environment, to adhere to sound and sustainable agricultural practices and to help in the alleviation of poverty through livelihood, education and community development."</p>
+            <h2>What This Organization is</h2>
+            <p id="paragraph">GreenEarth Heritage Foundation is a farm, a burgeoning reforestation site, a sustainable agricultural development, a haven of peace and tranquility, and a promise of a better tomorrow for members of our growing community.</p>
+            <h2>Why I Chose This Organization:</h2>
+            <ul>
+                <li>Coming back from a long-drive from Davao back to my homeplace, Kidapawan, it was so unbearably hot. The cold, chilly windy breeze has turned into smelly, hot, humid gusts of wind- I was flabbergasted. Not much to my surprise, I see piles of garbage around the main city, and my neighbors burning down... plastics; I left outraged.</li>
+                <li>After addressing this issue with the barangay LGUs, they've done nothing about this issue; this left a bad taste in my mouth. Our motherland, slowly dying, all our fault. With this newfound aggression, I've continued to support organizations like these to raise awareness and to take action.</li>
+                <li>This organization helps to preserve the longest Mountain range in the Philippines, the Sierra Madres. You are able to support this organization by buying their organic Moringa Tea, and Moringa Powder (Although I don't personally like Tea)</li>
+            </ul>
+        </div>
+        <div id="signupform_border">
+            <form>
+                <legend>Sign-up Form</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required><br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" required><br>
+                <p id="sex">Your Sex</p>
+                    <label id="radios">
+                        Male:
+                        <input type="radio" name="radio" value="male" required>
+                    </label><br>
+                    <label id="radios">
+                        Female:
+                        <input type="radio" name="radio" value="female">
+                    </label><br>
+                    <label id="radios">
+                        Non-Binary:
+                        <input type="radio" name="radio" value="nonbinary">
+                    </label><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" required><br>
+                <label for="phone">Contact Number:</label>
+                <input type="number" id="phone"><br>
+                <input type="submit" value="Sign-In!">    
+                <input type="reset" value="Reset Form">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
